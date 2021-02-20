@@ -2,12 +2,17 @@ plugins {
     id 'java'
 }
 
-group 'org.example'
+group 'com.tarekkma'
 version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
+    implementation files('libs/pj2src_20190611.jar')
 }
