@@ -16,7 +16,7 @@ public class ParallelArrInit {
     System.out.println((System.currentTimeMillis() - time) + " msec - parallelAssignValues()");
 
     long time2 = System.currentTimeMillis();
-    parallelAssignValues(arr2);
+    sequentialAssignValues(arr2);
     System.out.println((System.currentTimeMillis() - time2) + " msec - sequentialAssignValues()");
   }
 
